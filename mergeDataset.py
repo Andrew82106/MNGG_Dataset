@@ -15,7 +15,7 @@ def remove_extra_whitespace(text):
 
 def is_illegal_character(char):
     # 列举合法字符范围：汉字、标点、字母、数字
-    valid_chars = set('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789，。！？、；：‘’“”（）《》&#8203;``【oaicite:0】``&#8203;……—·￥—·')
+    valid_chars = set('～-abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789，。！？、；：‘’“”（）《》&#8203;``【oaicite:0】``&#8203;……—·￥—·')
 
     # 检查字符是否在合法范围内
     return char not in valid_chars and not ('\u4e00' <= char <= '\u9fff')
@@ -58,10 +58,23 @@ def tokenize_with_position(text):
     return word_positions
 
 
+def getTHUC():
+    with open(THUC_path, "r", encoding='utf-8') as f:
+        content0 = remove_extra_whitespace(f.read())
+    content = ""
+    cnt = 0
+    for i in tqdm.tqdm(content0, desc="checking content"):
+        if is_illegal_character(i):
+            cnt += 1
+            continue
+        content += i
+    print(f"finish checking content with illegal characters ratio:{100*cnt/len(content0)}%")
+    return content
+
+
 if __name__ == '__main__':
     pair = read_cantPair()
-    with open(THUC_path, "r", encoding='utf-8') as f:
-        content = remove_extra_whitespace(f.read())
+    content = getTHUC()
     word_positions = tokenize_with_position(content)
     cnt = 0
     for refer in tqdm.tqdm(pair, desc='processing pairs'):
@@ -79,7 +92,7 @@ if __name__ == '__main__':
                     break
             if not legal:
                 continue
-            if "。" not in i:
+            if "。" not in i and " " not in i:
                 cant = i
                 break
         if cant == -1:
@@ -90,11 +103,14 @@ if __name__ == '__main__':
                 word_positions[Index][0] = cant
                 word_positions[Index][2] = 1
                 cnt += 1
+
     filename = "./MNGG.all.txt"
     if bio:
         filename = filename.replace(".txt", ".bio")
+
     print(f"finish processing pairs using {cnt} words with a replace ratio of {100 * cnt / len(word_positions)}%")
     print(f"process mode:{'bio' if bio else 'T/F'}")
+
     with open(filename, "w", encoding='utf-8') as f:
         for i in tqdm.tqdm(word_positions, desc="writing datasets"):
             if not bio:
@@ -103,6 +119,8 @@ if __name__ == '__main__':
             else:
                 cnt = 0
                 for j in i[0]:
+                    if len(j) == 0:
+                        continue
                     if cnt > 0:
                         f.write(f"{j}\t{'I-CANT' if i[2] == 1 else 'O'}\n")
                     else:

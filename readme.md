@@ -8,6 +8,11 @@
 - test：MNGG.test.txt
 - dev：MNGG.dev.txt
 
+
+- train(bio format)：MNGG.train.bio
+- test(bio format)：MNGG.test.bio
+- dev(bio format)：MNGG.dev.bio
+
 train，test，dev比率为2：2：1
 
 ## 数据集任务：
@@ -24,6 +29,15 @@ train，test，dev比率为2：2：1
 ```python
 python mergeDataset.py
 python splitDataset.py
+```
+
+即可
+
+
+如果要生成bio格式的序列标注数据，修改``mergeDataset.py``中的bio标记为：
+
+```python
+bio = 1
 ```
 
 即可
