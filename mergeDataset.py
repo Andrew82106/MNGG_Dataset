@@ -13,6 +13,14 @@ def remove_extra_whitespace(text):
     return text
 
 
+def is_illegal_character(char):
+    # 列举合法字符范围：汉字、标点、字母、数字
+    valid_chars = set('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789，。！？、；：‘’“”（）《》&#8203;``【oaicite:0】``&#8203;……—·￥—·')
+
+    # 检查字符是否在合法范围内
+    return char not in valid_chars and not ('\u4e00' <= char <= '\u9fff')
+
+
 bio = 1
 THUC_path = "./THUC/all.txt"
 dogWhistle_path = "./CantPair.xlsx"
@@ -57,11 +65,25 @@ if __name__ == '__main__':
     word_positions = tokenize_with_position(content)
     cnt = 0
     for refer in tqdm.tqdm(pair, desc='processing pairs'):
-        cant = pair[refer][0]
+        for j in refer:
+            if is_illegal_character(j):
+                print(j)
+                continue
+        cant = -1
         for i in pair[refer]:
+            legal = True
+            for j in i:
+                if is_illegal_character(j):
+                    print(j)
+                    legal = False
+                    break
+            if not legal:
+                continue
             if "。" not in i:
                 cant = i
                 break
+        if cant == -1:
+            raise Exception("no cant!")
         for Index in range(len(word_positions)):
             word = word_positions[Index][0]
             if refer == word:
@@ -70,7 +92,7 @@ if __name__ == '__main__':
                 cnt += 1
     filename = "./MNGG.all.txt"
     if bio:
-        filename = "./MNGG.all.bio"
+        filename = filename.replace(".txt", ".bio")
     print(f"finish processing pairs using {cnt} words with a replace ratio of {100 * cnt / len(word_positions)}%")
     print(f"process mode:{'bio' if bio else 'T/F'}")
     with open(filename, "w", encoding='utf-8') as f:
