@@ -4,6 +4,7 @@ import numpy as np
 import jieba
 import re
 
+
 def remove_extra_whitespace(text):
     # 去除文本中的非断行空白字符（包括空格、制表符等）
     text = re.sub(r'\s+', ' ', text)
@@ -11,6 +12,8 @@ def remove_extra_whitespace(text):
     text = text.strip()
     return text
 
+
+bio = 1
 THUC_path = "./THUC/all.txt"
 dogWhistle_path = "./CantPair.xlsx"
 
@@ -65,11 +68,25 @@ if __name__ == '__main__':
                 word_positions[Index][0] = cant
                 word_positions[Index][2] = 1
                 cnt += 1
-    print(f"finish processing pairs using {cnt} words with a replace ratio of {100*cnt/len(word_positions)}%")
-    with open("./MNGG.all.txt", "w", encoding='utf-8') as f:
+    filename = "./MNGG.all.txt"
+    if bio:
+        filename = "./MNGG.all.bio"
+    print(f"finish processing pairs using {cnt} words with a replace ratio of {100 * cnt / len(word_positions)}%")
+    print(f"process mode:{'bio' if bio else 'T/F'}")
+    with open(filename, "w", encoding='utf-8') as f:
         for i in tqdm.tqdm(word_positions, desc="writing datasets"):
-            for j in i[0]:
-                f.write(f"{j}\t{'F' if i[2] == 0 else 'T'}\n")
-
+            if not bio:
+                for j in i[0]:
+                    f.write(f"{j}\t{'F' if i[2] == 0 else 'T'}\n")
+            else:
+                cnt = 0
+                for j in i[0]:
+                    if cnt > 0:
+                        f.write(f"{j}\t{'I-CANT' if i[2] == 1 else 'O'}\n")
+                    else:
+                        f.write(f"{j}\t{'B-CANT' if i[2] == 1 else 'O'}\n")
+                        cnt = 1
+                    if j == '。':
+                        f.write("。\tF\n")
 
     print("end")
