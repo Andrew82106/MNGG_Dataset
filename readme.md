@@ -25,7 +25,10 @@ train，test，dev比率为5：3：2
 代码层面，首先准备好dogwhistle数据集和THUC数据集，然后：
 
 ```python
-python generate.py --mode generate_main
+python generate.py --mode generate_main\
+                   --train_ratio 0.5\
+                   --test_ratio 0.3\
+                   --dev_ratio 0.2\
 ```
 
 即可
@@ -33,7 +36,11 @@ python generate.py --mode generate_main
 如果要使用裁剪后的小数据集，则运行
 
 ```python
-python generate.py --mode generate_clip
+python generate.py --mode generate_clip\
+                   --train_ratio 0.5\
+                   --test_ratio 0.3\
+                   --dev_ratio 0.2\
+                   --clip_ratio 0.1\
 ```
 
 即可

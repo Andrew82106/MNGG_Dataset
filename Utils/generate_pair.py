@@ -22,13 +22,21 @@ import re
 
 def is_valid_word(word):
     # 检查词语是否合法
-    return 6 >= len(word) >= 2 and bool(re.search(r'[\u4e00-\u9fff]', word))
+    if 6 >= len(word) >= 2:
+        for I in word:
+            if not bool(re.search(r'[\u4e00-\u9fff]', I)):
+                return False
+        return True
+    else:
+        return False
 
 
 def clean_invalid_pairs(raw_pair):
     cleaned_pair = {}
     for key, value in raw_pair.items():
         # 检查key和value是否合法
+        if "蝴蝶" in key + value:
+            pass
         if is_valid_word(key) and is_valid_word(value):
             cleaned_pair[key] = value
     return cleaned_pair

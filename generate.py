@@ -1,3 +1,4 @@
+import pandas as pd
 import tqdm
 from Utils.path import *
 from Utils.wash_news_data import wash_news_data
@@ -108,9 +109,19 @@ def save_as_bio_format(segmented_sentences, output_file_path):
                 else:  # 非暗语词汇
                     for char in word:
                         file.write(f"{char}\tO\n")
-            file.write('。 \n')  # 句子结束标志
+            file.write('。 O\n')  # 句子结束标志
             file.write('\n')  # 句子结束标志
         print(f"successfully save data to {output_file_path}")
+
+
+def output_word_pair(word_pair):
+    D = {"word": [], "cant": []}
+    for word in word_pair:
+        cant = word_pair[word]
+        D['word'].append(word)
+        D['cant'].append(cant)
+    pd.DataFrame(D).to_excel(os.path.join(MNGG_path, 'cant_word.xlsx'))
+    print(f"successfully save cant word to {os.path.join(MNGG_path, 'cant_word.xlsx')}")
 
 
 def generate_main(train_ratio=0.5, test_ratio=0.3, dev_ratio=0.2, clip_ratio=0.1, clip=False):
@@ -146,9 +157,27 @@ def generate_main(train_ratio=0.5, test_ratio=0.3, dev_ratio=0.2, clip_ratio=0.1
     save_as_bio_format(train_segmented_sentences, output_train_file_path)
     save_as_bio_format(test_segmented_sentences, output_test_file_path)
     save_as_bio_format(dev_segmented_sentences, output_dev_file_path)
+    output_word_pair(word_pair)
+    print("Summary：")
+    print(f"是否裁剪：{'是' if clip else '否'}")
+    print(f"输出训练集长度：{len(train_segmented_sentences)}")
+    print(f"输出测试集长度：{len(test_segmented_sentences)}")
+    print(f"输出开发集长度：{len(dev_segmented_sentences)}")
+    print(f"共含暗语词汇数量：{len(word_pair)}")
 
 
 if args.mode == 'generate_main':
-    generate_main()
+    generate_main(
+        train_ratio=args.train_ratio,
+        test_ratio=args.test_ratio,
+        dev_ratio=args.dev_ratio,
+        clip=False
+    )
 elif args.mode == 'generate_clip':
-    generate_main(clip=1)
+    generate_main(
+        train_ratio=args.train_ratio,
+        test_ratio=args.test_ratio,
+        dev_ratio=args.dev_ratio,
+        clip_ratio=args.clip_ratio,
+        clip=True
+    )

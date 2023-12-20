@@ -39,9 +39,10 @@
 张	B-CANT
 韶	I-CANT
 涵	I-CANT
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 儿	O
 童	O
 不	O
@@ -58,9 +59,10 @@
 年	O
 后	O
 ，	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 人	O
 的	O
 平	O
@@ -76,7 +78,7 @@
 2	O
 0	O
 ！	O
-。 
+。 O
 
 基	O
 于	O
@@ -151,7 +153,7 @@
 界	O
 瞩	O
 目	O
-。 
+。 O
 
 此	O
 项	O
@@ -202,7 +204,7 @@
 的	O
 龙	O
 头	O
-。 
+。 O
 
 在	O
 有	B-CANT
@@ -272,7 +274,7 @@
 质	O
 产	O
 品	O
-。 
+。 O
 
 小	O
 巧	O
@@ -320,7 +322,7 @@
 浴	O
 体	O
 验	O
-。 
+。 O
 
 成	O
 霖	O
@@ -352,12 +354,12 @@
 浴	O
 变	O
 成	O
-T	B-CANT
-恤	I-CANT
+贤	B-CANT
+者	I-CANT
 的	O
 按	B-CANT
 摩	I-CANT
-。 
+。 O
 
 人	O
 性	O
@@ -400,7 +402,7 @@ T	B-CANT
 安	I-CANT
 外	O
 接	O
-。 
+。 O
 
 产	O
 品	O
@@ -426,7 +428,7 @@ T	B-CANT
 子	I-CANT
 水	O
 花	O
-。 
+。 O
 
 人	O
 性	O
@@ -499,7 +501,7 @@ T	B-CANT
 耗	O
 电	O
 路	O
-。 
+。 O
 
 这	O
 套	O
@@ -562,7 +564,7 @@ T	B-CANT
 天	O
 阳	O
 台	O
-。 
+。 O
 
 涂	O
 料	O
@@ -655,7 +657,7 @@ T	B-CANT
 后	I-CANT
 一	I-CANT
 刀	I-CANT
-。 
+。 O
 
 上	O
 我	B-CANT
@@ -722,7 +724,7 @@ T	B-CANT
 货	O
 就	O
 成	O
-。 
+。 O
 
 张	B-CANT
 韶	I-CANT
@@ -808,7 +810,7 @@ T	B-CANT
 和	O
 销	O
 量	O
-。 
+。 O
 
 一	O
 位	O
@@ -853,7 +855,7 @@ T	B-CANT
 抢	O
 饭	O
 吃	O
-。 
+。 O
 
 对	O
 经	O
@@ -891,7 +893,7 @@ T	B-CANT
 一	O
 样	O
 的	O
-。 
+。 O
 
 张	B-CANT
 韶	I-CANT
@@ -926,7 +928,7 @@ T	B-CANT
 安	O
 无	O
 事	O
-。 
+。 O
 
 张	B-CANT
 韶	I-CANT
@@ -973,7 +975,7 @@ T	B-CANT
 到	O
 冲	O
 击	O
-。 
+。 O
 
 这	O
 种	O
@@ -1029,7 +1031,7 @@ T	B-CANT
 在	O
 必	O
 行	O
-。 
+。 O
 
 开	O
 始	O
@@ -1070,7 +1072,7 @@ T	B-CANT
 心	O
 品	O
 牌	O
-。 
+。 O
 
 而	O
 经	O
@@ -1172,7 +1174,7 @@ T	B-CANT
 扁	O
 平	O
 化	O
-。 
+。 O
 
 主	O
 要	O
@@ -1200,7 +1202,7 @@ T	B-CANT
 量	O
 可	O
 观	O
-。 
+。 O
 
 在	O
 一	O
@@ -1242,7 +1244,7 @@ T	B-CANT
 0	O
 左	O
 右	O
-。 
+。 O
 
 而	O
 地	O
@@ -1275,7 +1277,7 @@ T	B-CANT
 去	O
 开	O
 拓	O
-。 
+。 O
 
 这	O
 些	O
@@ -1302,7 +1304,7 @@ T	B-CANT
 的	O
 乡	O
 镇	O
-。 
+。 O
 
 这	O
 种	O
@@ -1338,7 +1340,7 @@ T	B-CANT
 的	O
 销	O
 售	O
-。 
+。 O
 
 只	O
 要	O
@@ -1417,7 +1419,7 @@ T	B-CANT
 古	B-CANT
 文	I-CANT
 明	I-CANT
-。 
+。 O
 
 投	O
 资	O
@@ -1458,7 +1460,7 @@ T	B-CANT
 解	O
 决	O
 的	O
-。 
+。 O
 
 无	O
 论	O
@@ -1510,7 +1512,7 @@ T	B-CANT
 高	O
 销	O
 量	O
-。 
+。 O
 
 零	O
 售	O
@@ -1534,7 +1536,7 @@ T	B-CANT
 级	O
 品	O
 牌	O
-。 
+。 O
 
 要	O
 想	O
@@ -1570,7 +1572,7 @@ T	B-CANT
 经	O
 销	O
 商	O
-。 
+。 O
 
 张	B-CANT
 韶	I-CANT
@@ -1604,7 +1606,7 @@ T	B-CANT
 和	O
 昂	B-CANT
 贵	I-CANT
-。 
+。 O
 
 因	O
 为	O
@@ -1632,7 +1634,7 @@ T	B-CANT
 和	O
 青	B-CANT
 铜	I-CANT
-。 
+。 O
 
 所	O
 以	O
@@ -1641,11 +1643,9 @@ T	B-CANT
 在	O
 工	O
 程	O
-空	B-CANT
-j	I-CANT
-i	I-CANT
-a	I-CANT
-n	I-CANT
+野	B-CANT
+岭	I-CANT
+屎	I-CANT
 做	O
 得	O
 好	O
@@ -1670,7 +1670,7 @@ n	I-CANT
 经	O
 销	O
 商	O
-。 
+。 O
 
 这	O
 种	O
@@ -1717,7 +1717,7 @@ n	I-CANT
 过	O
 二	O
 亿	O
-。 
+。 O
 
 这	O
 些	O
@@ -1768,7 +1768,7 @@ n	I-CANT
 万	O
 以	O
 上	O
-。 
+。 O
 
 涂	O
 料	O
@@ -1801,7 +1801,7 @@ n	I-CANT
 的	O
 目	O
 的	O
-。 
+。 O
 
 而	O
 对	O
@@ -1833,8 +1833,8 @@ n	I-CANT
 款	O
 温	O
 馨	O
-T	B-CANT
-恤	I-CANT
+贤	B-CANT
+者	I-CANT
 的	O
 软	B-CANT
 的	I-CANT
@@ -1857,7 +1857,7 @@ T	B-CANT
 的	O
 感	O
 觉	O
-。 
+。 O
 
 近	O
 日	O
@@ -1912,7 +1912,7 @@ T	B-CANT
 不	O
 合	O
 格	O
-。 
+。 O
 
 在	O
 黑	O
@@ -1965,7 +1965,7 @@ T	B-CANT
 4	O
 1	O
 2	O
-。 
+。 O
 
 从	O
 2	O
@@ -1976,9 +1976,10 @@ T	B-CANT
 开	O
 始	O
 ，	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 家	O
 具	O
 行	O
@@ -2021,7 +2022,7 @@ T	B-CANT
 的	O
 洗	O
 牌	O
-。 
+。 O
 
 家	O
 具	O
@@ -2085,11 +2086,12 @@ T	B-CANT
 宝	O
 之	O
 一	O
-。 
+。 O
 
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 家	O
 具	O
 协	O
@@ -2112,9 +2114,10 @@ T	B-CANT
 是	O
 当	O
 前	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 家	O
 具	O
 行	O
@@ -2126,7 +2129,7 @@ T	B-CANT
 的	O
 问	O
 题	O
-。 
+。 O
 
 她	O
 表	O
@@ -2162,7 +2165,7 @@ T	B-CANT
 安	I-CANT
 大	O
 国	O
-。 
+。 O
 
 受	O
 金	O
@@ -2186,7 +2189,7 @@ T	B-CANT
 剧	O
 下	O
 降	O
-。 
+。 O
 
 与	O
 此	O
@@ -2242,7 +2245,7 @@ T	B-CANT
 峻	O
 擂	B-CANT
 台	I-CANT
-。 
+。 O
 
 大	O
 批	O
@@ -2282,7 +2285,7 @@ T	B-CANT
 买	B-CANT
 买	I-CANT
 买	I-CANT
-。 
+。 O
 
 目	O
 前	O
@@ -2329,9 +2332,10 @@ T	B-CANT
 影	O
 响	O
 了	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 家	O
 具	O
 的	O
@@ -2341,9 +2345,10 @@ T	B-CANT
 ，	O
 造	O
 成	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 加	O
 剧	O
 低	O
@@ -2369,11 +2374,12 @@ T	B-CANT
 的	O
 培	O
 育	O
-。 
+。 O
 
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 家	O
 具	O
 企	O
@@ -2408,7 +2414,7 @@ T	B-CANT
 贵	I-CANT
 突	O
 围	O
-。 
+。 O
 
 据	O
 记	O
@@ -2421,9 +2427,10 @@ T	B-CANT
 获	O
 悉	O
 ，	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 家	O
 具	O
 业	O
@@ -2448,7 +2455,7 @@ T	B-CANT
 0	O
 亿	O
 元	O
-。 
+。 O
 
 究	O
 其	O
@@ -2501,7 +2508,7 @@ T	B-CANT
 买	B-CANT
 买	I-CANT
 买	I-CANT
-。 
+。 O
 
 对	O
 此	O
@@ -2514,9 +2521,10 @@ T	B-CANT
 ，	O
 其	O
 实	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 家	O
 具	O
 企	O
@@ -2528,12 +2536,9 @@ T	B-CANT
 的	O
 发	O
 展	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 ，	O
 比	O
 如	O
@@ -2556,13 +2561,14 @@ T	B-CANT
 家	O
 具	O
 等	O
-。 
+。 O
 
 今	O
 后	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 家	O
 具	O
 协	O
@@ -2626,18 +2632,16 @@ T	B-CANT
 牌	O
 意	O
 识	O
-。 
+。 O
 
 德	O
 尔	O
 地	O
 板	O
-宁	B-CANT
-吃	I-CANT
-儿	I-CANT
-了	I-CANT
-吗	I-CANT
-！	I-CANT
+快	B-CANT
+乐	I-CANT
+开	I-CANT
+会	I-CANT
 合	B-CANT
 伙	I-CANT
 总	O
@@ -2661,9 +2665,10 @@ T	B-CANT
 问	O
 题	O
 让	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 的	O
 家	O
 具	O
@@ -2680,7 +2685,7 @@ T	B-CANT
 常	O
 艰	O
 辛	O
-。 
+。 O
 
 王	O
 志	O
@@ -2785,7 +2790,7 @@ T	B-CANT
 上	O
 出	O
 售	O
-。 
+。 O
 
 在	O
 过	O
@@ -2797,9 +2802,10 @@ T	B-CANT
 年	O
 间	O
 ，	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 家	O
 具	O
 业	O
@@ -2839,7 +2845,7 @@ T	B-CANT
 的	O
 发	O
 展	O
-。 
+。 O
 
 老	B-CANT
 头	I-CANT
@@ -2850,9 +2856,10 @@ T	B-CANT
 预	O
 测	O
 ，	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 家	O
 具	O
 行	O
@@ -2907,11 +2914,12 @@ T	B-CANT
 买	B-CANT
 买	I-CANT
 买	I-CANT
-。 
+。 O
 
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 的	O
 家	O
 具	O
@@ -2952,7 +2960,7 @@ T	B-CANT
 上	O
 前	O
 进	O
-。 
+。 O
 
 据	O
 广	O
@@ -3073,11 +3081,12 @@ T	B-CANT
 地	O
 转	O
 移	O
-。 
+。 O
 
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 建	O
 筑	O
 装	O
@@ -3120,7 +3129,7 @@ T	B-CANT
 的	O
 时	O
 代	O
-。 
+。 O
 
 这	O
 已	O
@@ -3160,7 +3169,7 @@ T	B-CANT
 的	O
 病	B-CANT
 毒	I-CANT
-。 
+。 O
 
 只	O
 有	O
@@ -3187,16 +3196,17 @@ T	B-CANT
 型	O
 向	B-CANT
 上	I-CANT
-。 
+。 O
 
 张	O
 仁	O
 认	O
 为	O
 ，	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 家	O
 具	O
 产	O
@@ -3292,14 +3302,11 @@ T	B-CANT
 姐	I-CANT
 整	O
 合	O
-。 
+。 O
 
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 虽	O
 然	O
 贯	O
@@ -3311,12 +3318,9 @@ T	B-CANT
 个	O
 功	O
 能	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 依	O
 然	O
 有	O
@@ -3371,7 +3375,7 @@ T	B-CANT
 番	O
 情	O
 调	O
-。 
+。 O
 
 同	O
 时	O
@@ -3389,22 +3393,17 @@ T	B-CANT
 增	O
 加	O
 了	O
-🐵	B-CANT
- 	I-CANT
-没	I-CANT
-有	I-CANT
+平	B-CANT
+方	I-CANT
 的	O
 照	B-CANT
 亮	I-CANT
 效	O
 果	O
 和	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 层	O
 次	O
 ，	O
@@ -3424,10 +3423,8 @@ T	B-CANT
 不	O
 会	O
 让	O
-🐵	B-CANT
- 	I-CANT
-没	I-CANT
-有	I-CANT
+平	B-CANT
+方	I-CANT
 显	O
 得	O
 大	O
@@ -3439,7 +3436,7 @@ T	B-CANT
 乱	O
 无	O
 章	O
-。 
+。 O
 
 陈	O
 明	O
@@ -3481,7 +3478,7 @@ T	B-CANT
 精	O
 力	O
 了	O
-。 
+。 O
 
 陈	O
 明	O
@@ -3511,7 +3508,7 @@ T	B-CANT
 较	O
 纯	O
 色	O
-。 
+。 O
 
 弄	O
 家	O
@@ -3537,7 +3534,7 @@ T	B-CANT
 的	O
 那	O
 种	O
-。 
+。 O
 
 每	O
 个	O
@@ -3567,7 +3564,7 @@ T	B-CANT
 图	B-CANT
 书	I-CANT
 馆	I-CANT
-。 
+。 O
 
 温	O
 碧	O
@@ -3579,8 +3576,8 @@ T	B-CANT
 都	O
 没	O
 有	O
-6	B-CANT
-岁	I-CANT
+团	B-CANT
+宠	I-CANT
 的	O
 失	O
 败	O
@@ -3602,7 +3599,7 @@ T	B-CANT
 的	O
 关	O
 注	O
-。 
+。 O
 
 事	O
 情	O
@@ -3645,7 +3642,7 @@ T	B-CANT
 也	O
 不	O
 错	O
-。 
+。 O
 
 后	O
 来	O
@@ -3699,7 +3696,7 @@ T	B-CANT
 传	O
 歪	O
 了	O
-。 
+。 O
 
 从	O
 荷	O
@@ -3791,7 +3788,7 @@ T	B-CANT
 活	O
 机	O
 能	O
-。 
+。 O
 
 而	O
 天	O
@@ -3808,11 +3805,8 @@ T	B-CANT
 拥	O
 挤	O
 的	O
-优	B-CANT
-秀	I-CANT
-？	I-CANT
-？	I-CANT
-？	I-CANT
+火	B-CANT
+候	I-CANT
 ，	O
 有	O
 超	O
@@ -3864,7 +3858,7 @@ T	B-CANT
 级	O
 豪	O
 宅	O
-。 
+。 O
 
 如	O
 今	O
@@ -3903,7 +3897,7 @@ T	B-CANT
 所	O
 接	O
 受	O
-。 
+。 O
 
 记	O
 者	O
@@ -3948,7 +3942,7 @@ T	B-CANT
 短	O
 工	O
 期	O
-。 
+。 O
 
 此	O
 外	O
@@ -4054,7 +4048,7 @@ T	B-CANT
 能	O
 比	O
 的	O
-。 
+。 O
 
 淋	O
 浴	O
@@ -4109,12 +4103,9 @@ T	B-CANT
 的	O
 洗	O
 浴	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 ，	O
 但	O
 由	O
@@ -4123,12 +4114,9 @@ T	B-CANT
 室	O
 卫	O
 生	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 有	O
 限	O
 ，	O
@@ -4148,7 +4136,7 @@ T	B-CANT
 于	O
 一	O
 室	O
-。 
+。 O
 
 淋	O
 浴	O
@@ -4189,13 +4177,10 @@ T	B-CANT
 的	O
 洗	O
 浴	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
-。 
+打	B-CANT
+响	I-CANT
+指	I-CANT
+。 O
 
 淋	O
 浴	O
@@ -4283,7 +4268,7 @@ T	B-CANT
 浴	O
 房	O
 等	O
-。 
+。 O
 
 为	O
 了	O
@@ -4326,7 +4311,7 @@ T	B-CANT
 吹	I-CANT
 牛	I-CANT
 皮	I-CANT
-。 
+。 O
 
 相	O
 关	O
@@ -4350,12 +4335,9 @@ T	B-CANT
 与	O
 卫	O
 浴	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 密	O
 切	O
 相	O
@@ -4392,7 +4374,7 @@ T	B-CANT
 格	O
 设	O
 计	O
-。 
+。 O
 
 对	O
 于	O
@@ -4462,10 +4444,11 @@ T	B-CANT
 沉	O
 闷	O
 的	O
-喂	B-CANT
-喂	I-CANT
-？	I-CANT
-。 
+努	B-CANT
+力	I-CANT
+毒	I-CANT
+姐	I-CANT
+。 O
 
 对	O
 于	O
@@ -4496,9 +4479,10 @@ T	B-CANT
 ，	O
 比	O
 如	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 淋	O
 浴	O
 房	O
@@ -4511,7 +4495,7 @@ T	B-CANT
 的	O
 丽	O
 莎	O
-。 
+。 O
 
 干	O
 湿	O
@@ -4587,7 +4571,7 @@ T	B-CANT
 的	O
 按	B-CANT
 摩	I-CANT
-。 
+。 O
 
 随	O
 性	O
@@ -4647,7 +4631,7 @@ T	B-CANT
 化	O
 之	O
 一	O
-。 
+。 O
 
 这	O
 新	O
@@ -4715,7 +4699,7 @@ T	B-CANT
 式	O
 之	O
 一	O
-。 
+。 O
 
 不	O
 要	O
@@ -4761,7 +4745,7 @@ T	B-CANT
 边	O
 缘	O
 化	O
-。 
+。 O
 
 以	O
 色	O
@@ -4787,7 +4771,7 @@ T	B-CANT
 是	O
 枪	O
 支	O
-。 
+。 O
 
 玫	B-CANT
 瑰	I-CANT
@@ -4851,7 +4835,7 @@ T	B-CANT
 琐	O
 杂	O
 物	O
-。 
+。 O
 
 1	O
 鞋	O
@@ -4868,12 +4852,9 @@ T	B-CANT
 留	O
 一	O
 点	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 好	O
 让	O
 出	B-CANT
@@ -4899,7 +4880,7 @@ T	B-CANT
 方	O
 装	O
 灯	O
-。 
+。 O
 
 地	O
 漏	O
@@ -4943,7 +4924,7 @@ T	B-CANT
 最	O
 低	O
 点	O
-。 
+。 O
 
 特	O
 别	O
@@ -4968,7 +4949,7 @@ T	B-CANT
 插	O
 为	O
 宜	O
-。 
+。 O
 
 3	O
 关	O
@@ -4996,7 +4977,7 @@ T	B-CANT
 的	O
 水	O
 平	O
-。 
+。 O
 
 张	B-CANT
 韶	I-CANT
@@ -5017,9 +4998,8 @@ T	B-CANT
 东	B-CANT
 鹏	I-CANT
 的	O
-*	B-CANT
-*	I-CANT
-人	I-CANT
+称	B-CANT
+手	I-CANT
 比	O
 较	O
 好	O
@@ -5044,7 +5024,7 @@ T	B-CANT
 的	O
 做	O
 法	O
-。 
+。 O
 
 从	O
 效	O
@@ -5127,7 +5107,7 @@ T	B-CANT
 的	O
 效	O
 果	O
-。 
+。 O
 
 如	O
 果	O
@@ -5195,7 +5175,7 @@ T	B-CANT
 费	O
 习	O
 惯	O
-。 
+。 O
 
 管	O
 理	O
@@ -5329,7 +5309,7 @@ T	B-CANT
 是	I-CANT
 卧	I-CANT
 底	I-CANT
-。 
+。 O
 
 图	O
 为	O
@@ -5356,7 +5336,7 @@ T	B-CANT
 艺	O
 布	O
 置	O
-。 
+。 O
 
 图	O
 为	O
@@ -5383,7 +5363,7 @@ T	B-CANT
 艺	O
 布	O
 置	O
-。 
+。 O
 
 啤	B-CANT
 酒	I-CANT
@@ -5459,7 +5439,7 @@ T	B-CANT
 盘	O
 收	O
 租	O
-。 
+。 O
 
 丹	O
 尼	O
@@ -5542,7 +5522,7 @@ T	B-CANT
 理	O
 服	O
 务	O
-。 
+。 O
 
 定	O
 制	O
@@ -5589,7 +5569,7 @@ T	B-CANT
 着	I-CANT
 别	I-CANT
 人	I-CANT
-。 
+。 O
 
 但	O
 马	B-CANT
@@ -5686,7 +5666,7 @@ T	B-CANT
 足	O
 个	O
 性	O
-。 
+。 O
 
 其	O
 实	O
@@ -5773,7 +5753,7 @@ T	B-CANT
 的	O
 家	O
 具	O
-。 
+。 O
 
 买	B-CANT
 买	I-CANT
@@ -5822,7 +5802,7 @@ T	B-CANT
 关	O
 网	O
 页	O
-。 
+。 O
 
 有	O
 侦	B-CANT
@@ -5872,7 +5852,7 @@ T	B-CANT
 翔	I-CANT
 递	O
 增	O
-。 
+。 O
 
 此	O
 外	O
@@ -5923,7 +5903,7 @@ T	B-CANT
 品	O
 家	O
 具	O
-。 
+。 O
 
 目	O
 前	O
@@ -5962,7 +5942,7 @@ T	B-CANT
 行	O
 销	O
 售	O
-。 
+。 O
 
 在	O
 记	O
@@ -6032,7 +6012,7 @@ T	B-CANT
 制	O
 家	O
 具	O
-。 
+。 O
 
 而	O
 大	O
@@ -6082,7 +6062,7 @@ T	B-CANT
 小	O
 厂	O
 家	O
-。 
+。 O
 
 飞	O
 美	O
@@ -6155,7 +6135,7 @@ T	B-CANT
 的	O
 局	O
 面	O
-。 
+。 O
 
 一	O
 位	O
@@ -6250,9 +6230,10 @@ T	B-CANT
 错	O
 ，	O
 但	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 买	B-CANT
 买	I-CANT
 买	I-CANT
@@ -6282,7 +6263,7 @@ T	B-CANT
 满	O
 钵	O
 满	O
-。 
+。 O
 
 据	O
 记	O
@@ -6331,7 +6312,7 @@ T	B-CANT
 期	O
 加	O
 长	O
-。 
+。 O
 
 而	O
 许	O
@@ -6381,7 +6362,7 @@ T	B-CANT
 能	O
 作	O
 罢	O
-。 
+。 O
 
 相	O
 当	O
@@ -6449,7 +6430,7 @@ T	B-CANT
 量	O
 利	O
 用	O
-。 
+。 O
 
 2	O
 7	O
@@ -6496,7 +6477,7 @@ T	B-CANT
 地	B-CANT
 溝	I-CANT
 油	I-CANT
-。 
+。 O
 
 虽	O
 然	O
@@ -6560,7 +6541,7 @@ T	B-CANT
 人	O
 喜	O
 欢	O
-。 
+。 O
 
 女	O
 人	O
@@ -6602,7 +6583,7 @@ T	B-CANT
 的	O
 劳	O
 作	O
-。 
+。 O
 
 男	O
 人	O
@@ -6657,7 +6638,7 @@ T	B-CANT
 种	O
 风	O
 情	O
-。 
+。 O
 
 开	O
 垦	O
@@ -6671,12 +6652,9 @@ T	B-CANT
 荒	O
 废	O
 的	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 来	O
 吧	O
 ！	O
@@ -6695,12 +6673,9 @@ T	B-CANT
 的	O
 融	O
 进	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 中	O
 ，	O
 且	O
@@ -6726,7 +6701,7 @@ T	B-CANT
 相	O
 统	O
 一	O
-。 
+。 O
 
 雅	O
 致	O
@@ -6773,7 +6748,7 @@ T	B-CANT
 调	O
 服	B-CANT
 装	I-CANT
-。 
+。 O
 
 搭	O
 配	O
@@ -6818,7 +6793,7 @@ T	B-CANT
 流	O
 淌	O
 ！	O
-。 
+。 O
 
 居	O
 室	O
@@ -6864,7 +6839,7 @@ T	B-CANT
 洁	O
 为	O
 主	O
-。 
+。 O
 
 7	O
 凡	O
@@ -6891,7 +6866,7 @@ T	B-CANT
 一	O
 台	O
 ；	O
-。 
+。 O
 
 全	O
 国	O
@@ -7045,7 +7020,7 @@ T	B-CANT
 一	O
 盛	O
 况	O
-。 
+。 O
 
 下	O
 午	O
@@ -7099,7 +7074,7 @@ T	B-CANT
 徐	O
 拉	O
 开	O
-。 
+。 O
 
 他	O
 说	O
@@ -7125,9 +7100,10 @@ T	B-CANT
 有	O
 打	O
 造	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 最	O
 具	O
 责	O
@@ -7165,7 +7141,7 @@ T	B-CANT
 渝	O
 理	O
 念	O
-。 
+。 O
 
 商	O
 会	O
@@ -7258,7 +7234,7 @@ T	B-CANT
 牌	O
 商	O
 会	O
-。 
+。 O
 
 他	O
 们	O
@@ -7295,7 +7271,7 @@ T	B-CANT
 烈	O
 祝	O
 贺	O
-。 
+。 O
 
 他	O
 们	O
@@ -7339,7 +7315,7 @@ T	B-CANT
 长	O
 授	O
 牌	O
-。 
+。 O
 
 全	O
 体	O
@@ -7422,7 +7398,7 @@ T	B-CANT
 创	O
 辉	O
 煌	O
-。 
+。 O
 
 十	O
 六	O
@@ -7492,7 +7468,7 @@ T	B-CANT
 模	O
 企	O
 业	O
-。 
+。 O
 
 商	O
 会	O
@@ -7553,7 +7529,7 @@ T	B-CANT
 要	O
 给	B-CANT
 你	I-CANT
-。 
+。 O
 
 而	O
 作	O
@@ -7617,7 +7593,7 @@ T	B-CANT
 业	O
 盛	O
 会	O
-。 
+。 O
 
 一	O
 道	O
@@ -7632,12 +7608,9 @@ T	B-CANT
 以	O
 成	O
 为	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 的	O
 焦	O
 点	O
@@ -7651,7 +7624,7 @@ T	B-CANT
 够	O
 大	O
 胆	O
-。 
+。 O
 
 柔	O
 软	O
@@ -7695,7 +7668,7 @@ T	B-CANT
 的	O
 效	O
 果	O
-。 
+。 O
 
 乳	O
 白	O
@@ -7766,12 +7739,9 @@ T	B-CANT
 墙	O
 却	O
 给	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 一	O
 个	O
 服	B-CANT
@@ -7793,7 +7763,7 @@ T	B-CANT
 得	O
 益	O
 彰	O
-。 
+。 O
 
 0	O
 9	O
@@ -7940,7 +7910,7 @@ T	B-CANT
 断	O
 货	O
 了	O
-。 
+。 O
 
 正	O
 在	O
@@ -8025,7 +7995,7 @@ T	B-CANT
 产	O
 效	O
 率	O
-。 
+。 O
 
 经	O
 验	O
@@ -8088,7 +8058,7 @@ T	B-CANT
 地	O
 养	O
 产	O
-。 
+。 O
 
 另	O
 据	O
@@ -8148,7 +8118,7 @@ T	B-CANT
 产	O
 基	O
 地	O
-。 
+。 O
 
 圈	O
 地	O
@@ -8232,17 +8202,14 @@ T	B-CANT
 ，	O
 升	O
 值	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 无	O
 法	O
 估	O
 量	O
-。 
+。 O
 
 而	O
 真	O
@@ -8269,7 +8236,7 @@ T	B-CANT
 铜	I-CANT
 较	O
 量	O
-。 
+。 O
 
 掌	O
 上	O
@@ -8390,7 +8357,7 @@ T	B-CANT
 到	O
 缓	O
 解	O
-。 
+。 O
 
 无	O
 独	O
@@ -8471,7 +8438,7 @@ T	B-CANT
 生	O
 产	O
 线	O
-。 
+。 O
 
 对	O
 于	O
@@ -8609,7 +8576,7 @@ T	B-CANT
 般	O
 水	O
 平	O
-。 
+。 O
 
 他	O
 们	O
@@ -8658,11 +8625,9 @@ T	B-CANT
 个	O
 生	O
 产	O
-空	B-CANT
-j	I-CANT
-i	I-CANT
-a	I-CANT
-n	I-CANT
+野	B-CANT
+岭	I-CANT
+屎	I-CANT
 的	O
 成	O
 熟	O
@@ -8683,7 +8648,7 @@ n	I-CANT
 大	O
 作	O
 用	O
-。 
+。 O
 
 掌	O
 上	O
@@ -8763,11 +8728,12 @@ n	I-CANT
 产	O
 产	O
 能	O
-。 
+。 O
 
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 家	O
 具	O
 协	O
@@ -8878,7 +8844,7 @@ n	I-CANT
 人	O
 参	O
 加	O
-。 
+。 O
 
 作	O
 为	O
@@ -9065,11 +9031,12 @@ n	I-CANT
 业	O
 意	O
 见	O
-。 
+。 O
 
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 家	O
 具	O
 协	O
@@ -9196,7 +9163,7 @@ n	I-CANT
 要	O
 企	O
 业	O
-。 
+。 O
 
 同	O
 时	O
@@ -9282,9 +9249,10 @@ n	I-CANT
 中	O
 心	O
 及	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 质	O
 量	O
 检	O
@@ -9367,9 +9335,10 @@ n	I-CANT
 十	O
 六	O
 届	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 质	O
 量	O
 高	O
@@ -9412,7 +9381,7 @@ n	I-CANT
 定	O
 标	O
 准	O
-。 
+。 O
 
 践	O
 行	O
@@ -9468,13 +9437,14 @@ n	I-CANT
 和	O
 传	O
 颂	O
-。 
+。 O
 
 作	O
 为	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 健	O
 康	O
 睡	O
@@ -9577,7 +9547,7 @@ n	I-CANT
 营	O
 理	O
 念	O
-。 
+。 O
 
 如	O
 寝	O
@@ -9704,7 +9674,7 @@ n	I-CANT
 和	O
 健	O
 康	O
-。 
+。 O
 
 非	O
 常	O
@@ -9765,7 +9735,7 @@ n	I-CANT
 准	O
 努	B-CANT
 力	I-CANT
-。 
+。 O
 
 我	O
 们	O
@@ -9877,7 +9847,7 @@ n	I-CANT
 大	O
 变	O
 迁	O
-。 
+。 O
 
 更	O
 为	O
@@ -9971,7 +9941,7 @@ n	I-CANT
 活	O
 质	O
 量	O
-。 
+。 O
 
 2	O
 0	O
@@ -9983,12 +9953,10 @@ n	I-CANT
 8	O
 日	O
 ，	O
-宁	B-CANT
-吃	I-CANT
-儿	I-CANT
-了	I-CANT
-吗	I-CANT
-！	I-CANT
+快	B-CANT
+乐	I-CANT
+开	I-CANT
+会	I-CANT
 菲	O
 斯	O
 曼	O
@@ -10013,7 +9981,7 @@ n	I-CANT
 发	O
 布	O
 会	O
-。 
+。 O
 
 菲	O
 斯	O
@@ -10037,7 +10005,7 @@ n	I-CANT
 十	O
 周	O
 年	O
-。 
+。 O
 
 随	O
 着	O
@@ -10069,7 +10037,7 @@ n	I-CANT
 所	O
 在	O
 地	O
-。 
+。 O
 
 今	O
 天	O
@@ -10154,7 +10122,7 @@ n	I-CANT
 而	O
 自	O
 豪	O
-。 
+。 O
 
 2	O
 0	O
@@ -10181,9 +10149,10 @@ n	I-CANT
 术	O
 引	O
 入	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 买	B-CANT
 买	I-CANT
 买	I-CANT
@@ -10221,7 +10190,7 @@ n	I-CANT
 决	O
 方	O
 案	O
-。 
+。 O
 
 菲	O
 斯	O
@@ -10270,7 +10239,7 @@ n	I-CANT
 量	O
 热	O
 泵	O
-。 
+。 O
 
 用	O
 多	O
@@ -10310,7 +10279,7 @@ n	I-CANT
 竞	O
 争	O
 力	O
-。 
+。 O
 
 正	O
 如	O
@@ -10356,7 +10325,7 @@ n	I-CANT
 行	O
 供	O
 暖	O
-。 
+。 O
 
 德	O
 国	O
@@ -10408,18 +10377,16 @@ n	I-CANT
 策	O
 目	O
 标	O
-。 
+。 O
 
 在	O
 全	O
 球	O
 供	O
 热	O
-空	B-CANT
-j	I-CANT
-i	I-CANT
-a	I-CANT
-n	I-CANT
+野	B-CANT
+岭	I-CANT
+屎	I-CANT
 里	O
 ，	O
 菲	O
@@ -10437,7 +10404,7 @@ n	I-CANT
 苔	I-CANT
 企	O
 业	O
-。 
+。 O
 
 企	O
 业	O
@@ -10489,8 +10456,8 @@ n	I-CANT
 供	O
 温	O
 暖	O
-T	B-CANT
-恤	I-CANT
+贤	B-CANT
+者	I-CANT
 的	O
 同	O
 时	O
@@ -10498,7 +10465,7 @@ T	B-CANT
 到	O
 环	O
 保	O
-。 
+。 O
 
 在	O
 其	O
@@ -10548,7 +10515,7 @@ T	B-CANT
 楼	O
 供	O
 热	O
-。 
+。 O
 
 2	O
 0	O
@@ -10572,14 +10539,12 @@ T	B-CANT
 业	O
 第	B-CANT
 一	I-CANT
-。 
+。 O
 
-宁	B-CANT
-吃	I-CANT
-儿	I-CANT
-了	I-CANT
-吗	I-CANT
-！	I-CANT
+快	B-CANT
+乐	I-CANT
+开	I-CANT
+会	I-CANT
 菲	O
 斯	O
 曼	O
@@ -10621,7 +10586,7 @@ T	B-CANT
 最	O
 大	O
 化	O
-。 
+。 O
 
 比	O
 如	O
@@ -10647,8 +10612,8 @@ T	B-CANT
 就	O
 达	O
 到	O
-T	B-CANT
-恤	I-CANT
+贤	B-CANT
+者	I-CANT
 的	O
 温	O
 度	O
@@ -10657,16 +10622,17 @@ T	B-CANT
 事	I-CANT
 高	O
 效	O
-。 
+。 O
 
 菲	O
 斯	O
 曼	O
 爸	B-CANT
 爸	I-CANT
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 冬	O
 季	O
 两	O
@@ -10707,26 +10673,25 @@ T	B-CANT
 曼	O
 热	O
 衷	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 公	O
 益	O
 事	O
 业	O
-。 
+。 O
 
 2	O
 0	O
 0	O
 8	O
 年	O
-宁	B-CANT
-吃	I-CANT
-儿	I-CANT
-了	I-CANT
-吗	I-CANT
-！	I-CANT
+快	B-CANT
+乐	I-CANT
+开	I-CANT
+会	I-CANT
 菲	O
 斯	O
 曼	O
@@ -10740,18 +10705,16 @@ T	B-CANT
 买	B-CANT
 买	I-CANT
 买	I-CANT
-专	B-CANT
- 	I-CANT
-红	I-CANT
+领	B-CANT
+导	I-CANT
+力	I-CANT
 共	O
 同	O
 向	O
-宁	B-CANT
-吃	I-CANT
-儿	I-CANT
-了	I-CANT
-吗	I-CANT
-！	I-CANT
+快	B-CANT
+乐	I-CANT
+开	I-CANT
+会	I-CANT
 外	O
 来	O
 民	O
@@ -10775,7 +10738,7 @@ T	B-CANT
 热	O
 系	O
 统	O
-。 
+。 O
 
 发	O
 布	O
@@ -10845,7 +10808,7 @@ T	B-CANT
 面	O
 热	O
 烈	O
-。 
+。 O
 
 新	O
 华	O
@@ -10899,7 +10862,7 @@ T	B-CANT
 发	O
 布	O
 会	O
-。 
+。 O
 
 充	O
 气	O
@@ -11018,7 +10981,7 @@ T	B-CANT
 的	O
 感	O
 觉	O
-。 
+。 O
 
 你	O
 知	O
@@ -11049,7 +11012,7 @@ T	B-CANT
 体	O
 健	O
 康	O
-。 
+。 O
 
 今	O
 年	O
@@ -11092,9 +11055,9 @@ T	B-CANT
 活	O
 动	O
 ，	O
-专	B-CANT
- 	I-CANT
-红	I-CANT
+领	B-CANT
+导	I-CANT
+力	I-CANT
 专	O
 门	O
 力	O
@@ -11115,7 +11078,7 @@ T	B-CANT
 售	O
 市	O
 场	O
-。 
+。 O
 
 要	O
 督	O
@@ -11182,7 +11145,7 @@ T	B-CANT
 全	O
 监	O
 管	O
-。 
+。 O
 
 同	O
 时	O
@@ -11254,7 +11217,7 @@ T	B-CANT
 产	O
 源	O
 头	O
-。 
+。 O
 
 省	O
 人	O
@@ -11274,11 +11237,9 @@ T	B-CANT
 在	O
 销	O
 售	O
-空	B-CANT
-j	I-CANT
-i	I-CANT
-a	I-CANT
-n	I-CANT
+野	B-CANT
+岭	I-CANT
+屎	I-CANT
 ，	O
 要	O
 严	O
@@ -11290,7 +11251,7 @@ n	I-CANT
 出	O
 口	O
 关	O
-。 
+。 O
 
 一	O
 旦	O
@@ -11324,7 +11285,7 @@ n	I-CANT
 是	O
 问	O
 ！	O
-。 
+。 O
 
 长	O
 沙	O
@@ -11393,7 +11354,7 @@ n	I-CANT
 通	O
 知	O
 书	O
-。 
+。 O
 
 怀	O
 化	O
@@ -11433,7 +11394,7 @@ n	I-CANT
 和	O
 成	O
 品	O
-。 
+。 O
 
 今	O
 年	O
@@ -11480,7 +11441,7 @@ n	I-CANT
 性	O
 法	O
 规	O
-。 
+。 O
 
 广	O
 东	O
@@ -11531,7 +11492,7 @@ n	I-CANT
 展	O
 顺	O
 利	O
-。 
+。 O
 
 尹	B-CANT
 正	I-CANT
@@ -11590,7 +11551,7 @@ n	I-CANT
 占	O
 4	O
 0	O
-。 
+。 O
 
 目	O
 前	O
@@ -11667,7 +11628,7 @@ n	I-CANT
 5	O
 以	O
 上	O
-。 
+。 O
 
 尹	B-CANT
 正	I-CANT
@@ -11749,7 +11710,7 @@ n	I-CANT
 销	O
 基	O
 地	O
-。 
+。 O
 
 该	O
 基	O
@@ -11890,7 +11851,7 @@ n	I-CANT
 的	O
 发	O
 展	O
-。 
+。 O
 
 见	B-CANT
 面	I-CANT
@@ -11974,7 +11935,7 @@ n	I-CANT
 郭	O
 事	B-CANT
 业	I-CANT
-。 
+。 O
 
 他	O
 主	O
@@ -12005,7 +11966,7 @@ n	I-CANT
 具	O
 心	O
 得	O
-。 
+。 O
 
 郭	O
 力	O
@@ -12037,11 +11998,12 @@ n	I-CANT
 午	O
 好	O
 ！	O
-。 
+。 O
 
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 家	O
 具	O
 协	O
@@ -12189,7 +12151,7 @@ n	I-CANT
 太	O
 城	O
 的	O
-。 
+。 O
 
 我	O
 们	O
@@ -12275,9 +12237,10 @@ n	I-CANT
 共	O
 同	O
 将	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 家	O
 具	O
 产	O
@@ -12295,7 +12258,7 @@ n	I-CANT
 新	O
 高	O
 度	O
-。 
+。 O
 
 胡	O
 锦	O
@@ -12576,7 +12539,7 @@ n	I-CANT
 光	O
 和	O
 热	O
-。 
+。 O
 
 第	O
 二	O
@@ -12601,14 +12564,11 @@ n	I-CANT
 言	I-CANT
 大	O
 家	O
-。 
+。 O
 
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 在	O
 功	O
 能	O
@@ -12636,7 +12596,7 @@ n	I-CANT
 中	O
 之	O
 一	O
-。 
+。 O
 
 滑	O
 动	O
@@ -12647,12 +12607,9 @@ n	I-CANT
 特	O
 定	O
 的	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 里	O
 为	O
 居	O
@@ -12667,19 +12624,13 @@ n	I-CANT
 力	O
 ，	O
 令	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 与	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 之	O
 间	O
 相	O
@@ -12697,12 +12648,9 @@ n	I-CANT
 令	O
 家	O
 居	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 的	O
 分	O
 隔	O
@@ -12715,7 +12663,7 @@ n	I-CANT
 的	O
 灵	B-CANT
 感	I-CANT
-。 
+。 O
 
 张	B-CANT
 韶	I-CANT
@@ -12744,7 +12692,7 @@ n	I-CANT
 内	O
 空	O
 间	O
-。 
+。 O
 
 无	O
 论	O
@@ -12770,12 +12718,9 @@ n	I-CANT
 精	O
 彩	O
 ，	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 相	O
 应	O
 也	O
@@ -12786,7 +12731,7 @@ n	I-CANT
 彩	O
 起	O
 来	O
-。 
+。 O
 
 在	O
 实	O
@@ -12845,12 +12790,9 @@ n	I-CANT
 个	O
 个	O
 小	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 ，	O
 而	O
 无	O
@@ -12858,12 +12800,9 @@ n	I-CANT
 是	O
 哪	O
 个	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 ，	O
 共	O
 中	O
@@ -12882,7 +12821,7 @@ n	I-CANT
 的	O
 故	O
 事	O
-。 
+。 O
 
 简	O
 介	O
@@ -13011,7 +12950,7 @@ n	I-CANT
 的	O
 地	O
 位	O
-。 
+。 O
 
 大	O
 南	O
@@ -13065,7 +13004,7 @@ n	I-CANT
 的	I-CANT
 打	I-CANT
 击	I-CANT
-。 
+。 O
 
 不	O
 过	O
@@ -13123,7 +13062,7 @@ n	I-CANT
 的	O
 地	O
 位	O
-。 
+。 O
 
 共	O
 三	O
@@ -13164,7 +13103,7 @@ n	I-CANT
 艺	O
 灯	O
 等	O
-。 
+。 O
 
 简	O
 介	O
@@ -13360,7 +13299,7 @@ n	I-CANT
 尽	O
 商	O
 机	O
-。 
+。 O
 
 同	O
 时	O
@@ -13406,7 +13345,7 @@ n	I-CANT
 中	O
 心	O
 ；	O
-。 
+。 O
 
 简	O
 介	O
@@ -13524,7 +13463,7 @@ n	I-CANT
 的	O
 卖	O
 点	O
-。 
+。 O
 
 各	O
 层	O
@@ -13599,7 +13538,7 @@ n	I-CANT
 份	O
 倍	O
 增	O
-。 
+。 O
 
 交	O
 通	O
@@ -13645,7 +13584,7 @@ n	I-CANT
 心	O
 设	O
 站	O
-。 
+。 O
 
 简	O
 介	O
@@ -13695,18 +13634,15 @@ n	I-CANT
 比	O
 较	O
 远	O
-。 
+。 O
 
 进	O
 入	O
 卧	O
 眠	O
-小	B-CANT
-李	I-CANT
-子	I-CANT
-（	I-CANT
-演	I-CANT
-员	I-CANT
+打	B-CANT
+响	I-CANT
+指	I-CANT
 的	O
 门	O
 片	O
@@ -13737,7 +13673,7 @@ n	I-CANT
 觉	O
 感	O
 受	O
-。 
+。 O
 
 深	O
 色	O
@@ -13795,7 +13731,7 @@ n	I-CANT
 目	O
 一	O
 新	O
-。 
+。 O
 
 包	O
 围	O
@@ -13823,8 +13759,8 @@ n	I-CANT
 们	O
 在	O
 此	O
-T	B-CANT
-恤	I-CANT
+贤	B-CANT
+者	I-CANT
 和	O
 奢	O
 侈	O
@@ -13855,7 +13791,7 @@ T	B-CANT
 缓	O
 身	O
 心	O
-。 
+。 O
 
 优	O
 雅	O
@@ -13933,7 +13869,7 @@ T	B-CANT
 着	I-CANT
 别	I-CANT
 人	I-CANT
-。 
+。 O
 
 为	O
 了	O
@@ -13994,7 +13930,7 @@ T	B-CANT
 的	O
 分	O
 别	O
-。 
+。 O
 
 1	O
 1	O
@@ -14019,7 +13955,7 @@ T	B-CANT
 图	O
 1	O
 2	O
-。 
+。 O
 
 此	O
 款	O
@@ -14079,7 +14015,7 @@ T	B-CANT
 扫	O
 而	O
 光	O
-。 
+。 O
 
 刘	O
 飞	O
@@ -14092,9 +14028,10 @@ T	B-CANT
 0	O
 7	O
 年	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 国	O
 际	O
 小	O
@@ -14138,7 +14075,7 @@ T	B-CANT
 象	O
 大	O
 使	O
-。 
+。 O
 
 2	O
 0	O
@@ -14189,7 +14126,7 @@ T	B-CANT
 的	O
 一	O
 天	O
-。 
+。 O
 
 2	O
 0	O
@@ -14237,7 +14174,7 @@ T	B-CANT
 护	O
 环	O
 境	O
-。 
+。 O
 
 2	O
 0	O
@@ -14249,18 +14186,20 @@ T	B-CANT
 1	O
 0	O
 日	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 红	O
 十	O
 字	O
 基	O
 金	O
 会	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 红	O
 行	O
 动	O
@@ -14324,9 +14263,10 @@ T	B-CANT
 舒	O
 颁	O
 发	O
-1	B-CANT
-2	I-CANT
-画	I-CANT
+官	B-CANT
+渡	I-CANT
+之	I-CANT
+战	I-CANT
 红	O
 行	O
 动	O
@@ -14338,5 +14278,5 @@ T	B-CANT
 誉	O
 证	O
 书	O
-。 
+。 O
 
