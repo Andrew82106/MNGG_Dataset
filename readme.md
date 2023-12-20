@@ -4,16 +4,14 @@
 
 ## 数据
 
-- train：MNGG.train.txt
-- test：MNGG.test.txt
-- dev：MNGG.dev.txt
+- train：/dataset/MNGG/train.bio
+- test：/dataset/MNGG/test.bio
+- dev：/dataset/MNGG/dev.bio
+- train_clip：/dataset/MNGG/train.clip.bio
+- test_clip：/dataset/MNGG/test.clip.bio
+- dev_clip：/dataset/MNGG/dev.clip.bio
 
-
-- train(bio format)：MNGG.train.bio
-- test(bio format)：MNGG.test.bio
-- dev(bio format)：MNGG.dev.bio
-
-train，test，dev比率为2：2：1
+train，test，dev比率为5：3：2
 
 ## 数据集任务：
 
@@ -27,19 +25,17 @@ train，test，dev比率为2：2：1
 代码层面，首先准备好dogwhistle数据集和THUC数据集，然后：
 
 ```python
-python mergeDataset.py
-python splitDataset.py
+python generate.py --mode generate_main
 ```
 
 即可
 
-
-如果要生成bio格式的序列标注数据，修改``mergeDataset.py``中的bio标记为：
+如果要使用裁剪后的小数据集，则运行
 
 ```python
-bio = 1
+python generate.py --mode generate_clip
 ```
 
 即可
 
-如果要使用裁剪后的小数据集，则运行``clip.py``即可（仅对于bio格式数据集）
+![img.png](cache/img.png)
